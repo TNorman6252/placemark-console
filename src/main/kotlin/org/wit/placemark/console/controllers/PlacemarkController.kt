@@ -32,7 +32,7 @@ class PlacemarkController {
             }
             println()
         } while (input != -1)
-        logger.info { "Shutting Down Placemark Console App" }
+        logger.info { "Shutting Down Placemark Console App - Thanks for using the program!" }
     }
 
     fun menu() :Int { return placemarkView.menu() }
